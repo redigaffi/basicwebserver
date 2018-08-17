@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/WebServer.dir/src/main.cpp.o CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o  -o WebServer 
