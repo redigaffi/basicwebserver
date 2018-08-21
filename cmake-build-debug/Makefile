@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jordi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/jordi/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/jordi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/jordi/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordi/CLionProjects/WebServer
+CMAKE_SOURCE_DIR = /Users/jordi/gitrepos/basicwebserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordi/CLionProjects/WebServer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jordi/gitrepos/basicwebserver/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jordi/CLionProjects/WebServer/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/jordi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/jordi/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/jordi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/jordi/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles /home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles /Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,60 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/request/Request.o: src/request/Request.cpp.o
+
+.PHONY : src/request/Request.o
+
+# target to build an object file
+src/request/Request.cpp.o:
+	$(MAKE) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/src/request/Request.cpp.o
+.PHONY : src/request/Request.cpp.o
+
+src/request/Request.i: src/request/Request.cpp.i
+
+.PHONY : src/request/Request.i
+
+# target to preprocess a source file
+src/request/Request.cpp.i:
+	$(MAKE) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/src/request/Request.cpp.i
+.PHONY : src/request/Request.cpp.i
+
+src/request/Request.s: src/request/Request.cpp.s
+
+.PHONY : src/request/Request.s
+
+# target to generate assembly for a file
+src/request/Request.cpp.s:
+	$(MAKE) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/src/request/Request.cpp.s
+.PHONY : src/request/Request.cpp.s
+
+src/request/RequestParser.o: src/request/RequestParser.cpp.o
+
+.PHONY : src/request/RequestParser.o
+
+# target to build an object file
+src/request/RequestParser.cpp.o:
+	$(MAKE) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o
+.PHONY : src/request/RequestParser.cpp.o
+
+src/request/RequestParser.i: src/request/RequestParser.cpp.i
+
+.PHONY : src/request/RequestParser.i
+
+# target to preprocess a source file
+src/request/RequestParser.cpp.i:
+	$(MAKE) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.i
+.PHONY : src/request/RequestParser.cpp.i
+
+src/request/RequestParser.s: src/request/RequestParser.cpp.s
+
+.PHONY : src/request/RequestParser.s
+
+# target to generate assembly for a file
+src/request/RequestParser.cpp.s:
+	$(MAKE) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.s
+.PHONY : src/request/RequestParser.cpp.s
+
 src/socket/SocketServer.o: src/socket/SocketServer.cpp.o
 
 .PHONY : src/socket/SocketServer.o
@@ -189,6 +243,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/request/Request.o"
+	@echo "... src/request/Request.i"
+	@echo "... src/request/Request.s"
+	@echo "... src/request/RequestParser.o"
+	@echo "... src/request/RequestParser.i"
+	@echo "... src/request/RequestParser.s"
 	@echo "... src/socket/SocketServer.o"
 	@echo "... src/socket/SocketServer.i"
 	@echo "... src/socket/SocketServer.s"

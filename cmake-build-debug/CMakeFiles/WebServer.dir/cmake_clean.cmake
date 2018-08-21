@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/WebServer.dir/src/main.cpp.o"
   "CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o"
+  "CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o"
+  "CMakeFiles/WebServer.dir/src/request/Request.cpp.o"
   "WebServer.pdb"
   "WebServer"
 )

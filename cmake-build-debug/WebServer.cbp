@@ -8,92 +8,102 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jordi/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option working_dir="/Users/jordi/gitrepos/basicwebserver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jordi/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option working_dir="/Users/jordi/gitrepos/basicwebserver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jordi/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option working_dir="/Users/jordi/gitrepos/basicwebserver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="WebServer">
-				<Option output="/home/jordi/CLionProjects/WebServer/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jordi/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option output="/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jordi/gitrepos/basicwebserver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="WebServer/fast">
-				<Option output="/home/jordi/CLionProjects/WebServer/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jordi/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option output="/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jordi/gitrepos/basicwebserver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jordi/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jordi/CLionProjects/WebServer/src/main.cpp">
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/src/main.cpp">
 			<Option target="WebServer"/>
 		</Unit>
-		<Unit filename="/home/jordi/CLionProjects/WebServer/src/socket/SocketServer.cpp">
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/src/request/Request.cpp">
 			<Option target="WebServer"/>
 		</Unit>
-		<Unit filename="/home/jordi/CLionProjects/WebServer/src/socket/SocketServer.h">
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/src/request/Request.h">
 			<Option target="WebServer"/>
 		</Unit>
-		<Unit filename="/home/jordi/CLionProjects/WebServer/CMakeLists.txt">
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/jordi/gitrepos/basicwebserver/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

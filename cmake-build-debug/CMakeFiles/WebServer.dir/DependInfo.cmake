@@ -4,10 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jordi/CLionProjects/WebServer/src/main.cpp" "/home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/WebServer.dir/src/main.cpp.o"
-  "/home/jordi/CLionProjects/WebServer/src/socket/SocketServer.cpp" "/home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o"
+  "/Users/jordi/gitrepos/basicwebserver/src/main.cpp" "/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles/WebServer.dir/src/main.cpp.o"
+  "/Users/jordi/gitrepos/basicwebserver/src/request/Request.cpp" "/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles/WebServer.dir/src/request/Request.cpp.o"
+  "/Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.cpp" "/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o"
+  "/Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.cpp" "/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

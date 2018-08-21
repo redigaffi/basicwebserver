@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jordi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/jordi/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/jordi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/jordi/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordi/CLionProjects/WebServer
+CMAKE_SOURCE_DIR = /Users/jordi/gitrepos/basicwebserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordi/CLionProjects/WebServer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jordi/gitrepos/basicwebserver/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WebServer.dir/depend.make
@@ -59,43 +59,73 @@ include CMakeFiles/WebServer.dir/flags.make
 
 CMakeFiles/WebServer.dir/src/main.cpp.o: CMakeFiles/WebServer.dir/flags.make
 CMakeFiles/WebServer.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WebServer.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer.dir/src/main.cpp.o -c /home/jordi/CLionProjects/WebServer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WebServer.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer.dir/src/main.cpp.o -c /Users/jordi/gitrepos/basicwebserver/src/main.cpp
 
 CMakeFiles/WebServer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordi/CLionProjects/WebServer/src/main.cpp > CMakeFiles/WebServer.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordi/gitrepos/basicwebserver/src/main.cpp > CMakeFiles/WebServer.dir/src/main.cpp.i
 
 CMakeFiles/WebServer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordi/CLionProjects/WebServer/src/main.cpp -o CMakeFiles/WebServer.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordi/gitrepos/basicwebserver/src/main.cpp -o CMakeFiles/WebServer.dir/src/main.cpp.s
 
 CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o: CMakeFiles/WebServer.dir/flags.make
 CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o: ../src/socket/SocketServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o -c /home/jordi/CLionProjects/WebServer/src/socket/SocketServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o -c /Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.cpp
 
 CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordi/CLionProjects/WebServer/src/socket/SocketServer.cpp > CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.cpp > CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.i
 
 CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordi/CLionProjects/WebServer/src/socket/SocketServer.cpp -o CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.cpp -o CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.s
+
+CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o: CMakeFiles/WebServer.dir/flags.make
+CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o: ../src/request/RequestParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o -c /Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.cpp
+
+CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.cpp > CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.i
+
+CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.cpp -o CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.s
+
+CMakeFiles/WebServer.dir/src/request/Request.cpp.o: CMakeFiles/WebServer.dir/flags.make
+CMakeFiles/WebServer.dir/src/request/Request.cpp.o: ../src/request/Request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WebServer.dir/src/request/Request.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer.dir/src/request/Request.cpp.o -c /Users/jordi/gitrepos/basicwebserver/src/request/Request.cpp
+
+CMakeFiles/WebServer.dir/src/request/Request.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer.dir/src/request/Request.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordi/gitrepos/basicwebserver/src/request/Request.cpp > CMakeFiles/WebServer.dir/src/request/Request.cpp.i
+
+CMakeFiles/WebServer.dir/src/request/Request.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer.dir/src/request/Request.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordi/gitrepos/basicwebserver/src/request/Request.cpp -o CMakeFiles/WebServer.dir/src/request/Request.cpp.s
 
 # Object files for target WebServer
 WebServer_OBJECTS = \
 "CMakeFiles/WebServer.dir/src/main.cpp.o" \
-"CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o"
+"CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o" \
+"CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o" \
+"CMakeFiles/WebServer.dir/src/request/Request.cpp.o"
 
 # External object files for target WebServer
 WebServer_EXTERNAL_OBJECTS =
 
 WebServer: CMakeFiles/WebServer.dir/src/main.cpp.o
 WebServer: CMakeFiles/WebServer.dir/src/socket/SocketServer.cpp.o
+WebServer: CMakeFiles/WebServer.dir/src/request/RequestParser.cpp.o
+WebServer: CMakeFiles/WebServer.dir/src/request/Request.cpp.o
 WebServer: CMakeFiles/WebServer.dir/build.make
 WebServer: CMakeFiles/WebServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable WebServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable WebServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WebServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +138,6 @@ CMakeFiles/WebServer.dir/clean:
 .PHONY : CMakeFiles/WebServer.dir/clean
 
 CMakeFiles/WebServer.dir/depend:
-	cd /home/jordi/CLionProjects/WebServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordi/CLionProjects/WebServer /home/jordi/CLionProjects/WebServer /home/jordi/CLionProjects/WebServer/cmake-build-debug /home/jordi/CLionProjects/WebServer/cmake-build-debug /home/jordi/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/WebServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jordi/gitrepos/basicwebserver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jordi/gitrepos/basicwebserver /Users/jordi/gitrepos/basicwebserver /Users/jordi/gitrepos/basicwebserver/cmake-build-debug /Users/jordi/gitrepos/basicwebserver/cmake-build-debug /Users/jordi/gitrepos/basicwebserver/cmake-build-debug/CMakeFiles/WebServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/WebServer.dir/depend
 

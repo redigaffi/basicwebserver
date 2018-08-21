@@ -7,6 +7,9 @@
 #include <iostream>
 #include <unistd.h>
 #include "SocketServer.h"
+#include "../request/RequestParser.h"
+
+using std::cout, std::endl;
 
 namespace Socket {
     SocketServer::SocketServer(int port, int maxConnections) {
@@ -28,7 +31,7 @@ namespace Socket {
 
         this->socketFileDescriptor = socket(AF_INET, SOCK_STREAM, 0);
         setsockopt(this->socketFileDescriptor, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT, &opt, sizeof(opt));
-        bind(this->socketFileDescriptor, (sockaddr *) &serverAddress, (socklen_t)serverAddressSize);
+        bind(this->socketFileDescriptor, (sockaddr *) &serverAddress, (socklen_t) serverAddressSize);
         listen(this->socketFileDescriptor, this->maxConnections);
 
     }
@@ -37,19 +40,16 @@ namespace Socket {
         int serverAddressSize = sizeof(this->serverAddress);
         int new_socket;
         char buffer[2048] = {'\0'};
-        int sizeBuffer = sizeof(buffer);
+        RequestParser requestParser;
 
-        while (true) {
+        while(true) {
             if ((new_socket = accept(this->socketFileDescriptor, (sockaddr*) &this->serverAddress, (socklen_t*) &serverAddressSize)) >= 0) {
-                ::std::cout << "new connection " << new_socket << ::std::endl;
+                cout << "new connection " << new_socket << endl;
 
-
-                int bytesRead = recv( new_socket , buffer, 2047, 0);
-                ::std::cout << bytesRead << ::std::endl;
-
-                ::std::cout << "end";
-
-                ::std::cout << buffer;
+                ssize_t bytesRead = read(new_socket , &buffer, 1024);
+                if (bytesRead > 0) {
+                    requestParser.parseRequest(buffer, 2048);
+                }
             }
         }
     }

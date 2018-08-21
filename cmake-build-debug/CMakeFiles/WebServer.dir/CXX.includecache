@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/jordi/CLionProjects/WebServer/src/socket/SocketServer.cpp
+/Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.h
+string
+-
+vector
+-
+
+/Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.cpp
 sys/socket.h
 -
 iostream
@@ -14,9 +20,11 @@ iostream
 unistd.h
 -
 SocketServer.h
-/home/jordi/CLionProjects/WebServer/src/socket/SocketServer.h
+/Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.h
+../request/RequestParser.h
+/Users/jordi/gitrepos/basicwebserver/src/request/RequestParser.h
 
-/home/jordi/CLionProjects/WebServer/src/socket/SocketServer.h
+/Users/jordi/gitrepos/basicwebserver/src/socket/SocketServer.h
 netinet/in.h
 -
 
